@@ -5,11 +5,12 @@
 }
 .list {
     display:flex;
+    flex: 30%;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .shop {
-    flex: 1 1 30%;
+    flex-basis: 28%;
     border-style: dotted;
     padding: 5px;
 }
